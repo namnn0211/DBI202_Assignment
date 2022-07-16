@@ -2,7 +2,7 @@ HE132932	CS1604 	Summer2022a		JPD113(Participaton 0.1, PT 0.1, Mid-term 0.3, FE_
 SE143042	CS1604
 SE149001	CS1604
 
-HE156721	IA1604	Fall2021a		CEA201(Asignment 1 0.15, Exercises 0.75, FE 0.4)
+HE156721	IA1604	Fall2021a		CEA201(Asignment 1 0.15, Exercises 0.075, FE 0.4)
 HE132932	IA1604	Spring2022a		NWC204(Participaton 0.1, Lab 0.03, PT 0.1, FE 0.3)
 IS159200	IA1604	Summer2022a		JPD113(Participaton 0.1, PT 0.1, Mid-term 0.3, FE_Listening 0.1, FE_GVR 0.3)	
 

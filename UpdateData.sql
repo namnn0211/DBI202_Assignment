@@ -139,6 +139,7 @@ INSERT [dbo].[Enroll] ([GroupID], [SemesterID]) VALUES (N'IA1604', N'Summer2022a
 INSERT [dbo].[Enroll] ([GroupID], [SemesterID]) VALUES (N'IS1704', N'Spring2022b')
 INSERT [dbo].[Enroll] ([GroupID], [SemesterID]) VALUES (N'IS1704', N'Summer2022b')
 
+select * from [Category]
 -- ADD GRADE TABLE
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE132932', N'FE_GVR', 7, N'JPD113', N'Summer2022a', 1)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE132932', N'FE_LSN', 8.2, N'JPD113', N'Summer2022a', 1)
@@ -163,21 +164,24 @@ INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [Semeste
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'SE149001', N'PT', 8.4, N'JPD113', N'Summer2022a', 2)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'SE149001', N'PTT', 10, N'JPD113', N'Summer2022a', 1)
 
-INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE156721', N'ASM', 10, N'CEA201', N'Fall2021a', 1)
+INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE156721', N'ASM1', 10, N'CEA201', N'Fall2021a', 1)
+INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE156721', N'ASM1', 10, N'CEA201', N'Fall2021a', 1)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE156721', N'EXX', 9, N'CEA201', N'Fall2021a', 1)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE156721', N'EXX', 8.9, N'CEA201', N'Fall2021a', 2)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE156721', N'EXX', 10, N'CEA201', N'Fall2021a', 3)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE156721', N'EXX', 9.8, N'CEA201', N'Fall2021a', 4)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE156721', N'FE1', 9, N'CEA201', N'Fall2021a', 1)
 
-INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS149076', N'ASM', 10, N'CEA201', N'Fall2021a', 1)
+INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS149076', N'ASM1', 10, N'CEA201', N'Fall2021a', 1)
+INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS149076', N'ASM1', 10, N'CEA201', N'Fall2021a', 1)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS149076', N'EXX', 9, N'CEA201', N'Fall2021a', 1)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS149076', N'EXX', 8.9, N'CEA201', N'Fall2021a', 2)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS149076', N'EXX', 10, N'CEA201', N'Fall2021a', 3)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS149076', N'EXX', 9.8, N'CEA201', N'Fall2021a', 4)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS149076', N'FE1', 9, N'CEA201', N'Fall2021a', 1)
 
-INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS159200', N'ASM', 5, N'CEA201', N'Fall2021a', 1)
+INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS159200', N'ASM1', 5, N'CEA201', N'Fall2021a', 1)
+INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS159200', N'ASM1', 5, N'CEA201', N'Fall2021a', 1)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS159200', N'EXX', 4, N'CEA201', N'Fall2021a', 1)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS159200', N'EXX', 7, N'CEA201', N'Fall2021a', 2)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'IS159200', N'EXX', 6, N'CEA201', N'Fall2021a', 3)
@@ -322,4 +326,23 @@ INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [Semeste
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE159082', N'PE', 5.5, N'DBI202', N'Summer2022b', 1)
 INSERT [dbo].[Grade] ([StudentID], [AssessmentID], [Score], [CourseID], [SemesterID], [Part]) VALUES (N'HE159082', N'FE', 7.5, N'DBI202', N'Summer2022b', 1)
 
---
+--ADD VIEW TABLE
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'HE132932', N'Summer2022a', 7.87, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'HE156721', N'Fall2021a', 9.43, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'HE156721', N'Spring2022a', 10, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'HE156721', N'Summer2022a', 7.2, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'HE159082', N'Spring2022b', 4, N'NOT PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'HE159082', N'Summer2022b', 6.87, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'HE163780', N'Spring2022b', 7.03, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'HE163780', N'Summer2022b', 7.25, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'IS149076', N'Fall2021a', 9.43, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'IS149076', N'Spring2022a', 8.41, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'IS149076', N'Summer2022a', 7.1, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'IS159200', N'Fall2021a', 4.75, N'NOT PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'IS159200', N'Spring2022a', 4.5, N'NOT PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'IS159200', N'Summer2022a', 8.75, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'IS168901', N'Spring2022b', 6.23, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'IS168901', N'Summer2022b', 5, N'PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'SE143042', N'Summer2022a', 4.25, N'NOT PASSED')
+INSERT [dbo].[View] ([StudentID], [SemesterID], [Avarage], [Status]) VALUES (N'SE149001', N'Summer2022a', 8.1, N'PASSED')
+
